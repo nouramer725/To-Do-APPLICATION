@@ -14,6 +14,7 @@ class APPCubit extends Cubit<AppStates> {
   static APPCubit get(context) => BlocProvider.of(context);
 
   Database? database;
+
   List<Map> tasks = [];
 
   List<String> titles = [
