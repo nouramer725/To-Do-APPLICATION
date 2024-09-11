@@ -37,12 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   sqflite: ^2.3.3+1
   intl: ^0.19.0
-#  get: ^4.6.6
   bloc: ^8.1.4
-#  flutter_conditional_rendering: ^2.1.0
-#  conditional_builder_rec: ^1.0.0
   flutter_bloc: ^8.1.4
-#  conditional_builder: ^2.0.0
 
 
 
