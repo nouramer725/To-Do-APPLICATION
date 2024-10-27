@@ -1,5 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:todo_application/SplashScreen.dart';
 import 'Home_Layout.dart';
 import 'shared/cubit/cubit_observer.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.brown,),
         useMaterial3: true,
       ),
-      home: HomeLayout() ,
+      home: const SplashScreen() ,
     );
   }
 }
