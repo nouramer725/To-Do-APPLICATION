@@ -34,7 +34,7 @@ Widget buildTaskItem(BuildContext context, Map model) {
         children: [
           CircleAvatar(
             radius: 50,
-            child: Text('${model['time']}',style: const TextStyle(color: Colors.black54,fontSize: 23,fontWeight: FontWeight.bold ,fontFamily: AutofillHints.countryName),),
+            child: Text('${model['time']}',style: const TextStyle(color: Colors.black,fontSize: 19,fontWeight: FontWeight.bold ,fontFamily: AutofillHints.countryName),),
           ),
           const SizedBox(width: 20),
           Expanded(
@@ -44,7 +44,7 @@ Widget buildTaskItem(BuildContext context, Map model) {
               children: [
                 Text(
                   '${model['title']}',
-                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize:25, color: Colors.black54),
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize:25, color: Colors.black),
                 ),
                 Text(
                   '${model['date']}',

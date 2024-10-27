@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:flutter/foundation.dart';
-import 'package:todo_app/Archive_screen.dart';
-import 'package:todo_app/Done_screen.dart';
-import 'package:todo_app/New_Screen.dart';
+import '../../Archive_screen.dart';
+import '../../Done_screen.dart';
+import '../../New_Screen.dart';
 import 'states.dart';
 
 

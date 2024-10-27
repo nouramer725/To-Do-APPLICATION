@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:todo_app/shared/cubit/cubit.dart';
-import 'package:todo_app/shared/cubit/states.dart';
+import 'package:todo_application/shared/cubit/cubit.dart';
+import 'package:todo_application/shared/cubit/states.dart';
 
 
 class HomeLayout extends StatefulWidget {

@@ -1,8 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:todo_app/Home_Layout.dart';
-import 'package:todo_app/New_Screen.dart';
-
+import 'Home_Layout.dart';
 import 'shared/cubit/cubit_observer.dart';
 
 void main() {
