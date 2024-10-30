@@ -19,7 +19,7 @@ class SplashScreen extends StatelessWidget {
             Expanded(
               child: Center(
                 child: Lottie.asset(
-                  'assets/images/aa.json',
+                  'assets/images/aaa.json',
                   animate: true,
                   repeat: true,
                   reverse: true,
@@ -32,7 +32,6 @@ class SplashScreen extends StatelessWidget {
         nextScreen: const HomeLayout(),
         splashIconSize: 350,
         backgroundColor: Colors.white,
-        duration: Duration.hoursPerDay,
         splashTransition: SplashTransition.scaleTransition,
       ),
     );
